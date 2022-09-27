@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Check:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Check_jar</output-path>
+    <root id="archive" name="jiedui0.jar">
+      <element id="module-output" name="jiedui0" />
+    </root>
+  </artifact>
+</component>
