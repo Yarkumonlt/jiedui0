@@ -1,5 +1,5 @@
 import java.util.Stack;
-
+//计算答案的方法的总结类
 public class Calculate {
     //计算后缀式的值
     static Stack<Character> stack = new Stack<>();
@@ -76,7 +76,7 @@ public class Calculate {
         else if (op == '*') return f2 * f1;
         else if (op == '÷') return f2 / f1;
         else return (float) -0;
-    }
+    }//核心
 
     //将含有分数的中缀式转换为后缀式
     //参数s：中缀形式的字符串
